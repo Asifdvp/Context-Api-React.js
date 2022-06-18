@@ -2,6 +2,7 @@ import React,{useContext} from 'react'
 import Context from '../ContextApi/store';
  const FirstPage= () =>{
     const   {state,dispatch} = useContext(Context)
+    console.log(state.counter)
   return (
     <div>
 <div>First Page : {state.counter} </div>

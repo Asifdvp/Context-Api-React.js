@@ -8,10 +8,8 @@ import './App.css';
 function App() {
   return (
   <Provider>
-<>
 <FirstPage/>
 <SecondPage/>
-  </>
     </Provider>
   );
 }
