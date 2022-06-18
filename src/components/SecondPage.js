@@ -4,6 +4,6 @@ export default function SecondPage() {
     const   {state} = useContext(Context)
 
   return (
-    <div>SecondPage : {state.counter}</div>
+    <div className='btn' style={{"width":"500px"}}>SecondPage : {state.counter}</div>
   )
 }
